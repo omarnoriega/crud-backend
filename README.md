@@ -1,6 +1,6 @@
-# Ejemplo CRUD de Productos en Spring Boot
+# Ejemplo CRUD de Productos en Spring Boot y MySQL
 ### Enero 2022
-### Tomado de @cavanosa
+### Basado en el [repositorio](https://github.com/cavanosa/crudBACK.git) de [@cavanosa](https://github.com/cavanosa)
 Para probar: 
 1. Ejecutar un servidor mysql
 2. El usuario y password deben configurarse en src/main/resources/application.properties
