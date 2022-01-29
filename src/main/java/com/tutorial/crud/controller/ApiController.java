@@ -18,7 +18,7 @@ public class ApiController {
         map.put("USERNAME",System.getenv("USERNAME"));
         map.put("USERDNSDOMAIN",System.getenv("USERDNSDOMAIN"));
         map.put("PROCESSOR_IDENTIFIER",System.getenv("PROCESSOR_IDENTIFIER"));
-        map.put("COMPUTERNAME",System.getenv("PROCESSOR_IDENTIFIER"));
+        map.put("COMPUTERNAME",System.getenv("COMPUTERNAME"));
         return new ResponseEntity(map, HttpStatus.OK);
     }
 }
